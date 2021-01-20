@@ -47,17 +47,23 @@ paginate     = 10
 
   # And you can even create generic menu
   [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+    weight     = -100
+  [[menu.main]]
     identifier = "blog"
     name       = "Blog"
     url        = "/posts"
     weight     = -10
   [[menu.main]]
+    identifier = "playlist"
+    name       = "Playlist"
+    url        = "/playlist"
+    weight     = -5
+  [[menu.main]]
     identifier = "github"
     name       = "Github"
     url        = "https://github.com/seanho12345/"
     weight     = 0
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "/about"
-    weight     = -100
+
