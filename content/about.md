@@ -13,9 +13,3 @@ I'm an undergraduate student major in Computer Science and Information Engineeri
 Still discovering the world of programming. :p
 
 Contact me: [Facebook](https://www.facebook.com/seanho12345/) [Instagram](https://www.instagram.com/vonernue/) [Github](https://github.com/seanho12345/) [Email](mailto:seanho12345@gmail.com)
-
-            
-
-            
-
-            
