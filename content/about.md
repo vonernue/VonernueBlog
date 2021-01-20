@@ -6,7 +6,7 @@ aliases = ["about-us","about-hugo","contact"]
   name = "Vonernue"
 +++
 
-**About? About what?? About me? me!? Oh...**
+**About? About what?? About me? ME!? Oh...**
 
 I'm an undergraduate student major in Computer Science and Information Engineering at NTNU.
 
