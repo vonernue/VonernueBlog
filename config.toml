@@ -56,3 +56,8 @@ paginate     = 10
     name       = "Github"
     url        = "https://github.com/seanho12345/"
     weight     = 0
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+    weight     = -100
