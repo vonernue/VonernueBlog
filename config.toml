@@ -16,13 +16,50 @@ paginate     = 10
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
 
-  # Enable sharing buttons, if you linke
-  enableSharingButtons = false
+  # Sharing buttons
+  #
+  # There are a lot of buttons preconfigured. If you want to change them,
+  # generate the buttons here: https://sharingbuttons.io
+  # and add them into your own `layouts/partials/sharing-buttons.html`
+  #
+  enableSharingButtons = true
 
   # Metadata mostly used in document's head
   description = "CSIE Undergrad at NTNU"
   keywords = "homepage, blog"
   images = [""]
+
+  #Portait on homepage
+  [params.portrait]
+    path     = "/img/vonernue_icon.png"
+    alt      = "Portrait"
+    maxWidth = "50px"
+
+  #Set Social Icon on homepage
+  [[params.social]]
+    name = "facebook"
+    url  = "https://www.facebook.com/seanho12345/"
+
+  [[params.social]]
+    name = "instagram"
+    url  = "https://www.instagram.com/vonernue/"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/seanho12345"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:seano12345@gmail.com"
+
+
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "Vonernue"
+    logoHomeLink = "/"
+    logoCursorColor = "#6FF7F0"
+    # path = "/img/vonernue_icon.png"
+    # alt = "Vonernue"
 
 [taxonomies]
     category = "blog"
@@ -37,13 +74,13 @@ paginate     = 10
     copyright = "Vonernue"
     readOtherPosts = "Read other posts"
 
-    [languages.en.params.logo]
-      logoText = "VONERNUE"
-      logoHomeLink = "/"
+    #[languages.en.params.logo]
+    #  logoText = "VONERNUE"
+    # logoHomeLink = "/"
     # or
     #
-      path = "/img/vonernue_icon.png"
-      alt = "Vonernue"
+    # path = "/img/vonernue_icon.png"
+    # alt = "Vonernue"
 
   # And you can even create generic menu
   [[menu.main]]
